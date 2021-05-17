@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins
 
 #Take the host docker groupid
 ARG HOST_DOCKER_GID=998
