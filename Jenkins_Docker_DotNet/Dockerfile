@@ -23,7 +23,7 @@ apt-get update && \
 apt-get -y install docker-ce
 
 # install dependencies to build .net core apps
-RUN apt-get update && apt-get install -y libunwind8 libicu58
+RUN apt-get update && apt-get install -y libunwind8 libicu63
 
 # install lftp to publish files over FTP
 RUN apt-get install -y lftp
